@@ -10,5 +10,5 @@ SELECT
 FROM 
     INFORMATION_SCHEMA.COLUMNS
 WHERE 
-    TABLE_NAME= 'Books'
+    TABLE_NAME= 'books'
     AND TABLE_SCHEMA = 'alx_book_store';
