@@ -9,6 +9,4 @@ SELECT
     COLUMN_DEFAULT
 FROM 
     INFORMATION_SCHEMA.COLUMNS
-WHERE 
-    TABLE_NAME= 'books'
-    AND TABLE_SCHEMA = 'alx_book_store';
+WHERE  TABLE_NAME= 'Books' AND TABLE_SCHEMA = 'alx_book_store';
